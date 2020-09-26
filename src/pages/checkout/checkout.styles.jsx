@@ -29,6 +29,12 @@ export const HeaderBlockContainer = styled.div`
   &:last-child {
     width: 8%;
   }
+  @media screen and (max-width: 900px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 12px;
+  }
 `;
 
 export const TotalContainer = styled.div`

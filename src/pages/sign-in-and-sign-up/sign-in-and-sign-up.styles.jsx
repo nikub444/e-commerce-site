@@ -11,9 +11,15 @@ export const SignInAndSignUpContainer = styled.div`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
   @media screen and (max-width: 900px) {
-    width: 500px;
+    width: auto;
+    padding: 25px;
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 100px;
+  }
+  @media screen and (max-width: 500px) {
+
+    padding: 10px;
+    min-width: 400px
   }
 `;
